@@ -1,13 +1,15 @@
 wp:
-    build: ./shapely
+    build: ./wordpress
     links:
      - mysql
     environment:
-     - WORDPRESS_DB_PASSWORD=password
+     - WORDPRESS_DB_PASSWORD=O9923CBrRu
     ports:
      - "80:80"
+     - "443:443"
 mysql:
     image: mysql
     environment:
-     - MYSQL_ROOT_PASSWORD=password
-     - MYSQL_DATABASE=wordpress2
+     - MYSQL_ROOT_PASSWORD=O9923CBrRu
+     - MYSQL_DATABASE=wordpress
+     
