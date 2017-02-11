@@ -1,3 +1,3 @@
 FROM wordpress:latest
-RUN rm -rf /var/www/html/wp-content
-COPY . /var/www/html/wp-content/
+RUN mkdir /var/www/html/wp-content/themes/shapely
+COPY . /var/www/html/wp-content/themes/shapely/
