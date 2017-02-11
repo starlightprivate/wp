@@ -1,5 +1,5 @@
 wp:
-    build: ./wordpress
+    build: ./shapely
     links:
      - mysql
     environment:
