@@ -5,11 +5,26 @@ wp:
     environment:
      - WORDPRESS_DB_PASSWORD=O9923CBrRu
     ports:
-     - "80:80"
-     - "443:443"
+     - "8080:80"
+nginx:
+  build: ./nginx
+  links:
+    - wp:wp
+  ports:
+    - "80:80"
+    - "443:443"
+app-server:
+  build: ./app-server
+  ports:
+    - "8000:8000"
+  links:
+    - redis
 mysql:
     image: mysql
     environment:
      - MYSQL_ROOT_PASSWORD=O9923CBrRu
      - MYSQL_DATABASE=wordpress
-     
+redis:
+  image: redis
+  ports:
+    - "6379"
