@@ -10,6 +10,7 @@ nginx:
   build: ./nginx
   links:
     - wp:wp
+    - app-server:app-server
   ports:
     - "80:80"
     - "443:443"
