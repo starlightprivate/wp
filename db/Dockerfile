@@ -1,3 +1,3 @@
 FROM mysql:5.7
 
-ADD wordpress.sql /docker-entrypoint-initdb.d
+ADD backup_db.sql /docker-entrypoint-initdb.d
