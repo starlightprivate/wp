@@ -23,8 +23,10 @@ app-server:
 mysql:
   image: mysql
   environment:
-   - MYSQL_ROOT_PASSWORD=O9923CBrRu
-   - MYSQL_DATABASE=wordpress
+    - MYSQL_ROOT_PASSWORD=O9923CBrRu
+    - MYSQL_DATABASE=wordpress
+  volumes:
+    - ./db/dump:/docker-entrypoint-initdb.d
 redis:
   image: redis
   ports:
