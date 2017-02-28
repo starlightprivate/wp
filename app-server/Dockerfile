@@ -10,8 +10,8 @@ RUN npm install --only=dev
 RUN npm run build
 
 WORKDIR /src/flashlightsforever
-RUN npm install
-RUN gulp build
+RUN npm install --only=dev
+RUN gulp build --only=dev
 
 WORKDIR /src
 RUN rm -rf app-server
@@ -24,4 +24,4 @@ WORKDIR ./app-server
 RUN npm install
 ENV NODE_ENV=production
 EXPOSE 8000
-CMD ["npm","start"]
+CMD ["npm","start"]	
