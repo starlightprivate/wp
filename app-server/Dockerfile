@@ -11,7 +11,7 @@ RUN npm run build
 
 WORKDIR /src/flashlightsforever
 RUN npm install --only=dev
-RUN gulp build --only=dev
+RUN gulp build
 
 WORKDIR /src
 RUN rm -rf app-server
