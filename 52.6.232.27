@@ -1,0 +1,34 @@
+52.6.232.27
+
+104.198.152.23
+
+
+
+*************** WP *******************
+(cd ~/clone && git log --format='%h' -n 1)
+echo "node-api commit"
+(cd app-server/node-api && git log --format='%h' -n 1)
+echo "flashlightsforever commit"
+(cd app-server/flashlightsforever && git log --format='%h' -n 1)
+rsync -avz ./ evan@104.198.152.23:~/app
+ssh evan@104.197.218.31 'cd app && sudo sh ~/app/scripts/launch.sh'
+
+*************** node-api *******************
+rsync -avz --rsync-path="sudo rsync" ./ node-api@104.154.137.204:~/source
+ssh node-api@104.198.152.23 'cd ~/source && sudo sh ~/source/launch.sh'
+
+*************** flashflightsforever *******************
+rsync -avz --rsync-path="sudo rsync" ./ flashlightsforever@104.154.137.204:~/source
+ssh flashlightsforever@104.154.137.204 'cd ~/source && sudo sh ~/source/build.sh'
+
+
+
+
+
+
+
+
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDBRB44QlDRnOv0YXuyjv3NYfxz6tnyb89+kPkXz31tecLJZLfesORG+iIjQVAmdV8p326zAbdahvSqnLEQEsmyx1cVy9kFvgiBrW0PcrGir+c0XqlvO/plShDIsj2GfjQaMl1Cbim1DPwaYJlaHV/tVTqiyJE/CbfVUa6GQ9HXKA2kq/IJ8HcNnfujARqXN7q9rU17aojuSTgQ96olp2xOj8UIh9U8mVkTO9MfstAoeNciYoE7JkV/8a/Yt76Bu9aqqCkOypXWzANia/nsJjddRss4C2Z1A9LGNA3dZ0JX+oF5i+Q0K+TOxg9Tw6vLxzeutmL/WRqcpzZF+b/JvjIf root@tacticalmastery-live.c.steady-computer-156807.internal
