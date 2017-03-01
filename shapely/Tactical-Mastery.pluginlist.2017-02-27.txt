@@ -1,0 +1,68 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.3.6
+  http://backwpup.com
+  Blog Name: Tactical Mastery
+  Blog URL: https://www.tacticalmastery.com
+  Generated on: 2017-02-27 20:13.17
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Akismet Anti-Spam (v.3.3) from Automattic
+	https://akismet.com/
+BackUpWordPress (v.3.6.3.1) from Human Made Limited
+	http://bwp.hmn.md/
+BackWPup (v.3.3.6) from Inpsyde GmbH
+	http://backwpup.com
+Better Search Replace (v.1.2.10) from Delicious Brains
+	https://bettersearchreplace.com
+Broken Link Checker (v.1.11.2) from Janis Elsts, Vladimir Prelovac
+	http://w-shadow.com/blog/2007/08/05/broken-link-checker-for-wordpress/
+Cloudflare (v.3.1.1) from John Wineman, Furkan Yilmaz, Junade Ali (Cloudflare Team)
+	https://blog.cloudflare.com/new-wordpress-plugin/
+Google Analytics Dashboard for WP (v.4.9.6.2) from Alin Marcu
+	https://deconf.com
+Hello Dolly (v.1.6) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+iThemes Security (v.6.1.1) from iThemes
+	https://ithemes.com/security
+Jetpack by WordPress.com (v.4.6) from Automattic
+	http://jetpack.com
+UpdraftPlus - Backup/Restore (v.1.12.34) from UpdraftPlus.Com, DavidAnderson
+	https://updraftplus.com
+W3 Total Cache (v.0.9.5.2) from Frederick Townes
+	https://www.w3-edge.com/wordpress-plugins/w3-total-cache/
+Widget Importer & Exporter (v.1.4.4) from churchthemes.com
+	https://churchthemes.com/plugins/widget-importer-exporter
+Wordfence Security (v.6.3.2) from Wordfence
+	http://www.wordfence.com/
+WordPress Importer (v.0.6.3) from wordpressdotorg
+	http://wordpress.org/extend/plugins/wordpress-importer/
+WP Scanner (v.1.0.2) from A5hleyRich
+	https://wpscanner.io
+Yoast SEO (v.4.3) from Team Yoast
+	https://yoast.com/wordpress/plugins/seo/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpseoplugin
+
+Active plugins:
+------------------------------
+BackUpWordPress
+BackWPup
+Better Search Replace
+Broken Link Checker
+Cloudflare
+iThemes Security
+W3 Total Cache
+Widget Importer & Exporter
+Wordfence Security
+WordPress Importer
+WP Scanner
+Yoast SEO
+
+Inactive plugins:
+------------------------------
+Akismet Anti-Spam
+Google Analytics Dashboard for WP
+Hello Dolly
+Jetpack by WordPress.com
+UpdraftPlus - Backup/Restore
